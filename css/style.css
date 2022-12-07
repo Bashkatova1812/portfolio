@@ -366,7 +366,7 @@ body:not(.single-post) a:hover .left-arrow:after,
 .widget.widget_recent_entries > ul li:hover .wdgt-counter:before,
 .widget_tag_cloud a:hover { border-color: #1106FF; }
 
-.nav.navbar-nav {
+div:not(#compact-menu) .nav.navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
